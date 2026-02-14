@@ -1,8 +1,10 @@
 *{
   box-sizing:border-box;
-  background:#ff3399;
   font-family:Brush Script MT ,cursive;
   }
+body{
+  background:#ff3399;
+}
 h2{
   font-size:20px;
 }
