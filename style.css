@@ -8,17 +8,13 @@ body{
   justify-content:center;
   margin-top:50px;
 }
-.box{
-border:none;
-  border-radius:20px;
-  
-  
+.app{
+  background:white;
+  width:350px;
+  padding:20px;
+  border-radius:12px;
+  box-shadow: 0 10px 25px rgba(0,0,0, .1);
 }
-.box h2{
-  font-size:40px;
-}
-.input-box{
 
-}
 
 
