@@ -15,6 +15,53 @@ body{
   border-radius:12px;
   box-shadow: 0 10px 25px rgba(0,0,0, .1);
 }
-
+h1{
+text-align:center;  
+}
+.input-box{
+display:flex;
+  gap:10px;
+}
+input{
+  flex:1;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+buttom{
+padding:10px;
+  border:none;
+  border-radius:8px;
+  color:white;
+  cursor:pointer;
+}
+ul{
+  list-style:none;
+  padding:0;
+  margin-top:15px;
+}
+li{
+  background:#f6f7fb;
+  padding:10px;
+  margin-buttom:8px;
+  border-radius:8px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  cursor:pointer;
+}
+li.done{ 
+  text-decoration:line-through;
+  color:grey;
+  }
+li button{
+  background:none;
+  color:red;
+  font-size:16px;
+}
+#clear{
+  width:100%;
+  margin-top:1opx;
+  background:#ff4d4d;
+}
 
 
