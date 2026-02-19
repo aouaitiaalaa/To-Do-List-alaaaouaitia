@@ -15,4 +15,18 @@ li.classList.add("done");
    li.classList.toggle("done");
     saveTasks();
   });
+
+let delbtn = document.createElement("button");
+delbtn.innerText ="❌";
+delbtn.addEventListener("click",function(e){
+  e.stopPropagation();
+  li.remove;
+  saveTasks();
+});
+li.appendChild(delbtn);
+list.appendChild(li);
 }
+
+
+
+
