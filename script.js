@@ -11,7 +11,7 @@ let li =document.createElement("li");
   if(done){
 li.classList.add("done");
   }
-  li.addEventlistener("click",function(){
+  li.addEventListener("click",function(){
    li.classList.toggle("done");
     saveTasks();
   });
@@ -20,7 +20,7 @@ let delbtn = document.createElement("button");
 delbtn.innerText ="❌";
 delbtn.addEventListener("click",function(e){
   e.stopPropagation();
-  li.remove;
+  li.remove();
   saveTasks();
 });
 li.appendChild(delbtn);
@@ -52,7 +52,7 @@ function saveTasks(){
   counter.innerText ="Tasks: "+ tasks.length;
 }
 tasks.forEach(task=>{
-  createTasks(task.text,task.done);
+  createTask(task.text,task.done);
 });
 counter.innerText= "Task: "+ tasks.length;
 clearBtn.addEventListener("click",function(){
