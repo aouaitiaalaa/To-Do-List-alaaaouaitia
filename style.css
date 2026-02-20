@@ -44,7 +44,7 @@ ul{
 li{
   background:#f6f7fb;
   padding:10px;
-  margin-buttom:8px;
+  margin-bottom:8px;
   border-radius:8px;
   display:flex;
   justify-content:space-between;
@@ -62,7 +62,7 @@ li button{
 }
 #clear{
   width:100%;
-  margin-top:1opx;
+  margin-top:10px;
   background:#ff4d4d;
 }
 
